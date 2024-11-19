@@ -23,7 +23,8 @@ public class StartApplicationTest {
                 .accept(MediaType.TEXT_HTML))
                 .andExpect(status().isOk())
                 .andExpect(view().name("index"))
-                .andExpect(model().attribute("title", "This is a SpringBoot Static Web Application"))
-                .andExpect(model().attribute("msg", "Application Is Deployed To Kuberneets"));
+                .andExpect(model().attribute("title", "This is a Basic Java Static Web Application"))
+                .andExpect(model().attribute("msg",
+                        "This Application Is Deployed To to An AWS EC2 Instance by a K2CYBERTEK DEVOPS ASPIRANT"));
     }
 }

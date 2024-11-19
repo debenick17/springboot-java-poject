@@ -72,3 +72,5 @@ This command performs the following steps:
 9. Navigate to your EC2 Instance's public IP Address and on port 8080. If you are using your local machine then you should go to http://localhost:8080/
 
 10. You can stop the project by hitting Ctrl+C on your terminal.
+
+NOTE: We will talk about the `mvn deploy` command some other time as it has it's own use case
