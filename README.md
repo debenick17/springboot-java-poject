@@ -4,7 +4,7 @@
 
 - Maven is a powerful build automation tool used primarily for Java projects.
 - The key file in maven is the `pom.xml` file (POM - Project Object Model) which manages the project settings and dependencies.
-- Maven is crucial for DevOps because it help in "**Automating Builds**", "**Managing Dependencies**", and "**Ensures Consistency in Builds**"
+- Maven is crucial for DevOps because it helps in "**Automating Builds**", "**Managing Dependencies**", and "**Ensures Consistency in Builds**"
 
 ## Setting Up Maven
 
@@ -12,13 +12,13 @@ Prerequisite: Setup an Ubuntu AWS EC2 instance
 
 ### Installing Maven with Apt
 
-Before installing maven we need to makje sure we have Java 17 or greater installed in our Ubuntu instance.
+Before installing maven we need to make sure we have Java 17 or greater installed in our Ubuntu instance.
 Run the commands below to install Java 17 and check your installation
 
 ```
-sudo apt install libc6-i386 libc6-x32 libxi6 libxtst6 -y
-wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
-sudo dpkg -i jdk-17_linux-x64_bin.deb
+apt-get update
+apt-get upgrade
+apt install openjdk-17-jdk openjdk-17-jre
 java -version
 ```
 
