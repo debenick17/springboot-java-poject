@@ -16,9 +16,9 @@ Before installing maven we need to make sure we have Java 17 or greater installe
 Run the commands below to install Java 17 and check your installation
 
 ```
-apt-get update
-apt-get upgrade
-apt install openjdk-17-jdk openjdk-17-jre
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt install openjdk-17-jdk openjdk-17-jre
 java -version
 ```
 
