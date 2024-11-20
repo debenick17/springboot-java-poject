@@ -74,3 +74,8 @@ This command performs the following steps:
 10. You can stop the project by hitting Ctrl+C on your terminal.
 
 NOTE: We will talk about the `mvn deploy` command some other time as it has it's own use case
+
+### Reference
+
+1. https://docs.google.com/presentation/d/1I4AG1uFU-q7llgmMLiAaHDV2f7j1r-G5lIU3ZsIK2Nc/edit#slide=id.g2f18d7137b3_0_115
+2. https://maven.apache.org/run.html
